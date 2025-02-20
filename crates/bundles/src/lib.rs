@@ -271,9 +271,12 @@ pub fn get_fallback_bundle_url(format_version: u32) -> String {
     // URL.
     if format_version < 32 {
         "https://relay.fullyjustified.net/default_bundle.tar".to_owned()
+    } else if format_version == 34 {
+        format!("https://relay.fullyjustified.net/default_bundle_v33.tar")
     } else {
         format!("https://relay.fullyjustified.net/default_bundle_v{format_version}.tar")
     }
+
 }
 
 /// Open the fallback bundle.

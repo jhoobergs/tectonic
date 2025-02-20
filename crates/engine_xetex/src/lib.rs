@@ -35,7 +35,7 @@ use tectonic_errors::prelude::*;
 //
 // DEVELOPER NOTE: if you change this, rerun cbindgen! This value is exported
 // into the C/C++ code as a #define.
-pub const FORMAT_SERIAL: u32 = 33;
+pub const FORMAT_SERIAL: u32 = 34;
 
 /// A possible outcome from a (Xe)TeX engine invocation.
 ///

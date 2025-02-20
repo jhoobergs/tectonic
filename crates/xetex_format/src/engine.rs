@@ -67,7 +67,7 @@ impl Engine {
         symbols.add(SymbolCategory::FixedArrays, "PRIM_SIZE", prim_size)?;
         symbols.add(SymbolCategory::FixedArrays, "PRIM_PRIME", prim_prime)?;
         symbols.add(SymbolCategory::FixedArrays, "MAX_FONT_MAX", 9000)?;
-        symbols.add(SymbolCategory::FixedArrays, "MEM_TOP", 4_999_999)?;
+        symbols.add(SymbolCategory::FixedArrays, "MEM_TOP", 104_999_999)?;
         symbols.add(SymbolCategory::FixedArrays, "NUMBER_MATH_FAMILIES", 256)?;
 
         let int_pars = intpars::get_intpars_for_version(version, &mut symbols)?;

@@ -44,7 +44,7 @@
 pub type FormatVersion = usize;
 
 /// The latest format version number supported by this version of the crate.
-pub const LATEST_VERSION: FormatVersion = 33;
+pub const LATEST_VERSION: FormatVersion = 34;
 
 mod parseutils;
 
